@@ -1,6 +1,6 @@
 import { parse, UrlWithParsedQuery } from 'url';
 
-const parseCurrentUrl = (): UrlWithParsedQuery =>
-  parse(window.location.href, true);
+const parseCurrentUrl = (url = window.location.href): UrlWithParsedQuery =>
+  parse(url, true);
 
 export default parseCurrentUrl;

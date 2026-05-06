@@ -2,8 +2,12 @@
   "extends": "@wavevision/coding-standard/ts/tsconfig.json",
   "compilerOptions": {
     "allowJs": false,
+    "ignoreDeprecations": "6.0",
     "module": "commonjs",
-    "target": "es5"
+    "isolatedModules": true,
+    "rootDir": ".",
+    "target": "es2020",
+    "types": ["node", "jest"]
   },
   "include": ["./*.js", "./bin/**/*", "./src/**/*"]
 }
