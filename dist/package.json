@@ -1,0 +1,57 @@
+{
+  "name": "@wavevision/ts-utils",
+  "version": "2.0.0",
+  "description": "Useful TypeScript utilities and helpers.",
+  "keywords": [
+    "typescript",
+    "utils",
+    "utilities",
+    "helpers"
+  ],
+  "main": "index.js",
+  "author": "Wavevision s.r.o. <info@wavevision.com>",
+  "contributors": [
+    {
+      "name": "Vít Rozsíval",
+      "email": "vit@wavevision.com"
+    }
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wavevision/ts-utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wavevision/ts-utils/issues"
+  },
+  "homepage": "https://github.com/wavevision/ts-utils",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.33.0",
+    "@typescript-eslint/parser": "^4.33.0",
+    "@wavevision/coding-standard": "^6.0.2",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-import-resolver-typescript": "^2.4.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jest": "^29.15.2",
+    "eslint-plugin-prettier": "^3.4.0",
+    "jest": "^30.3.0",
+    "jest-environment-jsdom": "^30.3.0",
+    "npm-run-all2": "^8.0.4",
+    "prettier": "^2.8.8",
+    "ts-jest": "^29.4.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  },
+  "peerDependencies": {
+    "@types/node": "^22",
+    "@types/react": "^19"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
